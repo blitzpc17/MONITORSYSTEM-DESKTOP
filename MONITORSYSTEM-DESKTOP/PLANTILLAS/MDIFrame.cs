@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace MONITORSYSTEM_DESKTOP.PLANTILLAS
 {
-    public partial class formGeneral : Form
+    public partial class MDIFrame : Form
     {
+        private int childFormNumber = 0;
+
+
 
 
         #region Variables
@@ -19,28 +22,22 @@ namespace MONITORSYSTEM_DESKTOP.PLANTILLAS
 
 
         #region Constructores
-        public formGeneral()
+        public MDIFrame()
         {
             InitializeComponent();
         }
-        private void formGeneral_Load(object sender, EventArgs e)
+        private void MDIFrame_Load(object sender, EventArgs e)
         {
             InicializarDiseno();
         }
+
         #endregion
 
         #region Metodos en general
         #endregion
 
         #region Metodos de controles
-        private void btnGuardar_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-
-        }
+       
         #endregion
 
         #region Metodos de diseno
@@ -52,9 +49,11 @@ namespace MONITORSYSTEM_DESKTOP.PLANTILLAS
         {
             pTop.BackColor = Color.FromArgb(240, 188, 94);
             pBot.BackColor = Color.FromArgb(240, 188, 94);
-            pBotonera.BackColor = Color.FromArgb(238, 238, 238);
+            toolStrip.BackColor= Color.FromArgb(240, 188, 94);
+            menu.BackColor= Color.FromArgb(240, 188, 94);
+            pContenedor.BackColor = Color.FromArgb(238, 238, 238);
         }
-        
+
 
 
         #endregion
