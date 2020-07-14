@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PLANTILLAS\formGeneral.resx">
+      <DependentUpon>formGeneral.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PLANTILLAS\formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>

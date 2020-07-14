@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formLogin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.pTop = new System.Windows.Forms.Panel();
             this.pBot = new System.Windows.Forms.Panel();
             this.lblUsuario = new System.Windows.Forms.Label();
@@ -50,17 +50,17 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnInicio
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Font = new System.Drawing.Font("Segoe WP", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(60, 328);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "INICIAR SESIÓN";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnInicio.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnInicio.Font = new System.Drawing.Font("Segoe WP", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnInicio.Location = new System.Drawing.Point(60, 328);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(225, 35);
+            this.btnInicio.TabIndex = 3;
+            this.btnInicio.Text = "INICIAR SESIÓN";
+            this.btnInicio.UseVisualStyleBackColor = false;
             // 
             // pTop
             // 
@@ -128,7 +128,7 @@
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.pBot);
             this.Controls.Add(this.pTop);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.pictureBox1);
@@ -148,7 +148,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private CONTROLES.txt txtUsuario;
         private CONTROLES.txt txtPassword;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Panel pTop;
         private System.Windows.Forms.Panel pBot;
         private System.Windows.Forms.Label lblUsuario;
